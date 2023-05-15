@@ -7,7 +7,7 @@ const Section = styled.nav`
 `;
 const Container = styled.div`
   width: 80rem;
-  height: 4rem;
+  height: 3.3rem;
   margin-top: 1rem;
   border-radius: 0.4rem;
   background: radial-gradient(
@@ -27,12 +27,14 @@ const Links = styled.div`
 
 const ListItem = styled.li`
     font-size: 1.5rem;
+    cursor: pointer;
 `;
 
 const List = styled.ul`
 list-style: none;
 display:flex;
-gap: 0.4rem;
+gap: 1.4rem;
+
 
 `;
 
@@ -47,6 +49,7 @@ const Icons = styled.div`
     display: flex;
     align-items: center;
     // justify-content: space-between;
+    // border: 1px solid red;
     gap: 2rem;
     
 `;
@@ -54,9 +57,11 @@ const Icons = styled.div`
 const Button = styled.button`
     font-size: 1rem;
     // padding: 0rem;
-    height: 3rem;
+    height: 3.3rem;
+    width: inherit;
     background: radial-gradient(circle at -14.3% -17.5%, rgb(245, 168, 168) 4%, rgb(164, 168, 248) 100.2%);
     border: none;
+    cursor: pointer;
 
 `;
 
